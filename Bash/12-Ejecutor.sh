@@ -1,3 +1,4 @@
+# 12. Ejecuta el ejecutable de la aplicación
 #!/bin/bash
 directorio="/opt/lampp/";
 cd $directorio;

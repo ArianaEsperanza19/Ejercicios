@@ -1,5 +1,5 @@
+# 16. Configurar sudoers, para colocar la pantalla de carga y hacer sudoer a un usuario 
 #!/bin/bash
-# Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado. 
 directorio="/home/ariana/Documentos/"; #Directorio del archivo
 archivo="pet.txt"; #Nombre del archivo
 

@@ -27,8 +27,6 @@ arbitro (){
     fi
 }
 
-
-
 read -p "Ingrese una opcion [0-3]: " opcion
 case $opcion in
 
