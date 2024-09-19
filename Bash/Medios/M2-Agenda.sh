@@ -1,5 +1,5 @@
 #!/bin/bash
-# 16. Crea un sistema de gestión de agenda
+# 2. Crea un sistema de gestión de agenda
 # - Debes implementar funcionalidades de búsqueda, inserción, actualización y eliminación de contactos.
 # - Cada contacto debe tener un nombre y un número de teléfono.
 # - El programa solicita en primer lugar cuál es la operación que se quiere realizar, y a continuación

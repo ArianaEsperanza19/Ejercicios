@@ -1,4 +1,4 @@
-# 18. Configurar sudoers, para colocar la pantalla de carga y hacer sudoer a un usuario 
+# 2. Configurar sudoers, para colocar la pantalla de carga y hacer sudoer a un usuario 
 #!/bin/bash
 directorio="/home/ariana/Documentos/"; #Directorio del archivo
 archivo="pet.txt"; #Nombre del archivo
