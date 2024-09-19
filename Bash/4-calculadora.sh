@@ -1,5 +1,5 @@
 #!/bin/bash
-# 5. Implementa una calculadora básica:
+# 4. Implementa una calculadora básica:
 # Escribe una aplicación de calculadora simple que pueda realizar operaciones básicas como suma, resta, 
 # multiplicación y división. La aplicación debe tomar dos números del usuario y la operación que 
 # desea realizar, y luego mostrar el resultado.
