@@ -1,0 +1,3 @@
+Tarea | Usuario | Estado
+57 | Caligrafias | Ariana | pendiente 
+19 | Cocinar cena | Maribel | pendiente
