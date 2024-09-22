@@ -7,23 +7,25 @@ num2=42;
 
 centinela(){
     local residuo=$1;
-    prueba1=$((56%residuo));
-    prueba2=$((42%residuo));
+    local prueba1=$((num1%residuo));
+    local prueba2=$((num2%residuo));
     control=0;
     if(( $prueba1 == 0 && $prueba2 == 0));then
             control=1;
     fi
 }
-
-residuo=$((num1%num2));
+n1=$num1;
+n2=$num2;
+residuo=1;
 while (( residuo != 0 )); do
+    residuo=$((n1%n2));
     centinela $residuo;
     if (( control == 1 )); then
     break;
     fi
-    residuo=$((num1%num2));
-    num1=$num2;
-    num2=$residuo;
+    residuo=$((n1%n2));
+    n1=$n2;
+    n2=$residuo;
 done
 
 echo "El MCD es $residuo";

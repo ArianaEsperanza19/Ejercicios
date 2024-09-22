@@ -4,10 +4,10 @@ $n1=56; #150 #56
 $n2=42; #39 #42
 $resto=$n1%$n2;
 
-function prueba($resto)
+function prueba($resto, $n1, $n2)
 {
-    $prueba1=56%$resto;
-    $prueba2=42%$resto;
+    $prueba1=$n1%$resto;
+    $prueba2=$n2%$resto;
     if ($prueba1 == 0 && $prueba2 == 0){
         return true;
     }else{
@@ -15,17 +15,18 @@ function prueba($resto)
     }
 }
 
-
+$num1=$n1;
+$num2=$n2;
 while($resto!=0){
 if($resto!=0){
-    $prueba = prueba($resto);
+    $prueba = prueba($resto, $n1, $n2);
     if($prueba == true){
         break;
     }
     }
-$resto=$n1%$n2;
-$n1=$n2;
-$n2=$resto;
+$resto=$num1%$num2;
+$num1=$num2;
+$num2=$resto;
 echo "$resto"."\n";
 }
 
