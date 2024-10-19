@@ -19,6 +19,7 @@
 - [ ]  Ejercicio 14: Generador de frases aleatorias
 - [ ]  Ejercicio 15: Simulacion de lanzamiento de dados
 - [ ]  Ejercicio 16: Calculo de area de figuras geometricas
+- [x]  Ejercicio 17: Crear un prompt a partir de datos ingresados por el usuario.
 
 **Medio**: 
 
