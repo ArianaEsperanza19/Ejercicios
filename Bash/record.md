@@ -32,4 +32,4 @@
 
 - [x]  Ejercicio 1: Crea un sistema de gestión de tareas
 - [x]  Ejercicio 2: Configurar sudoers para colocar la pantalla de carga y hacer sudoer a un usuario
-- [ ]  Ejercicio 3: Implementa un algoritmo de encriptación simple, como el cifrado César o el cifrado de Vigenère.
+- [x]  Ejercicio 3: Implementa un algoritmo de encriptación simple, como el cifrado César o el cifrado de Vigenère.
