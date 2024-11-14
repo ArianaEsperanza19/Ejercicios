@@ -15,10 +15,10 @@
 - [x]  Ejercicio 10: Realiza una secuencia de los números de Fibonacci
 - [x]  Ejercicio 11: Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado. 
 - [x]  Ejercicio 12: Petición HTTP
-- [ ]  Ejercicio 13: Conversor de unidades
-- [ ]  Ejercicio 14: Generador de frases aleatorias
-- [ ]  Ejercicio 15: Simulación de lanzamiento de dados
-- [ ]  Ejercicio 16: Calculo de area de figuras geométricas.
+- [x]  Ejercicio 13: Conversor de unidades
+- [x]  Ejercicio 14: Generador de frases aleatorias
+- [x]  Ejercicio 15: Simulación de lanzamiento de dados
+- [x]  Ejercicio 16: Calculo de area de figuras geométricas.
 - [x]  Ejercicio 17: Crea un prompt para ChatGPT usando la entrada del usuario.
 
 **Medio**: 
