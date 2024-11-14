@@ -4,7 +4,6 @@
 # para encontrar un elemento específico en una lista o matriz ordenada.
 
 # Ordenar la lista
-
 lista=(5 2 4 1 3);
 longitud=${#lista[*]};
 lista=($(printf "%s\n" "${lista[@]}" | sort -n))
