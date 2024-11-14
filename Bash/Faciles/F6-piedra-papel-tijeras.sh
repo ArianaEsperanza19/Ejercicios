@@ -1,5 +1,5 @@
 #!/bin/bash
-# 7. Desarrolla un juego de piedra, papel o tijera:
+# 6. Desarrolla un juego de piedra, papel o tijera:
 # Escribe un programa que simule el juego de piedra, papel o tijera. El programa debe permitir al usuario 
 # jugar contra la computadora y mostrar el resultado de cada ronda.
 
@@ -27,7 +27,7 @@ arbitro (){
     fi
 }
 
-read -p "Ingrese una opcion [0-3]: " opcion
+read -p "Ingrese una opcion [0-2]: " opcion
 case $opcion in
 
 "0") 

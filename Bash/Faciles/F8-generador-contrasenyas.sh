@@ -1,5 +1,5 @@
 #!/bin/bash
-# 9. Crea un generador de contraseñas seguras:
+# 8. Crea un generador de contraseñas seguras:
 # Escribe un programa que genere contraseñas seguras aleatorias que incluyan letras mayúsculas, 
 # minúsculas, números y símbolos. El programa debe permitir al usuario especificar la longitud de la 
 # contraseña y el número de contraseñas que desea generar.

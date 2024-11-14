@@ -1,5 +1,5 @@
 #!/bin/bash
-# 8. Implementa un algoritmo de búsqueda:
+# 7. Implementa un algoritmo de búsqueda:
 # Escribe un programa que implemente un algoritmo de búsqueda, como búsqueda binaria o búsqueda en anchura, 
 # para encontrar un elemento específico en una lista o matriz ordenada.
 

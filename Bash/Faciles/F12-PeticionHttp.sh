@@ -1,5 +1,5 @@
 #!/bin/bash
-# 14. Petición HTTP
+# 12. Petición HTTP
  # Utilizando un mecanismo de peticiones HTTP de tu lenguaje, realiza
  # una petición a la web que tú quieras, verifica que dicha petición
  # fue exitosa y muestra por consola el contenido de la web.

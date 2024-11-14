@@ -1,5 +1,5 @@
 #!/bin/bash
-# 4. Ordena una lista de números:
+# 3. Ordena una lista de números:
 # Escribe una función que ordene una lista de números enteros. 
 # Puedes utilizar cualquier algoritmo de ordenación que conozcas, como ordenación por burbuja, 
 # ordenación por selección o ordenación rápida.

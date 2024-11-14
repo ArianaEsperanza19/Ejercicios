@@ -1,5 +1,5 @@
 #!/bin/bash
-# 15. Crea un programa que reciba por teclado el kanji que deseas memorizar.
+# 17. Crea un programa que reciba por teclado el kanji que deseas memorizar.
 # Las palabras clave de la frase memotecmica para recordarlo.
 # Por ultimo la historia heisig que quieres traducir.
 # El resultado debe ser el input para ChatGPT

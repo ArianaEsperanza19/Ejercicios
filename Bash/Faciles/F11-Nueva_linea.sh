@@ -1,4 +1,4 @@
-# 13. Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado. 
+# 11. Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado. 
 #!/bin/bash
 directorio="/home/ariana/Documentos/";
 archivo="pet.txt";
