@@ -1,4 +1,5 @@
 <?php
+# 8. Busqueda binaria
 $busqueda = 97;
 $arreglo = [1, 3, 9, 15, 64, 97, 100];
 $indices = round(count($arreglo) / 2);
@@ -27,8 +28,5 @@ for ($i = 0; $i < $indices; $i++) {
 if($centinela == false){
     echo "No se encontró el número";
 }
-//echo "Encontrado en la posición $pivote";
-/*
-*/
 
 ?>
