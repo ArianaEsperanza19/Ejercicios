@@ -15,10 +15,10 @@
 - [x]  Ejercicio 10: Realiza una secuencia de los números de Fibonacci
 - [x]  Ejercicio 11: Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado. 
 - [x]  Ejercicio 12: Peticion HTTP
-- [ ]  Ejercicio 13: Conversor de unidades
-- [ ]  Ejercicio 14: Generador de frases aleatorias
-- [ ]  Ejercicio 15: Simulacion de lanzamiento de dados
-- [ ]  Ejercicio 16: Calculo de area de figuras geometricas
+- [x]  Ejercicio 13: Conversor de unidades
+- [x]  Ejercicio 14: Generador de frases aleatorias
+- [x]  Ejercicio 15: Simulacion de lanzamiento de dados
+- [x]  Ejercicio 16: Calculo de area de figuras geometricas
 - [x]  Ejercicio 17: Crear un prompt a partir de datos ingresados por el usuario.
 
 **Medio**: 

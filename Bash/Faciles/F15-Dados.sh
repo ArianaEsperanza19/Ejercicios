@@ -1,6 +1,5 @@
 #!/bin/bash
 # 15. Simulador de dados
-
 echo "Simulador de dados";
 echo "-----------------";
 read -p "Ingrese la cantidad de dados: " cantidad_dados;

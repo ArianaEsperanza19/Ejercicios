@@ -38,3 +38,4 @@ break;
 }
 }while($entrada <= 0 || $entrada > $max);//Mientras no se introduzca un valor valido
 }# While principal
+
