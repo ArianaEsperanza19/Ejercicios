@@ -12,14 +12,13 @@
 - [x]  Ejercicio 7: Implementa un algoritmo de búsqueda
 - [x]  Ejercicio 8: Crea un generador de contraseñas seguras
 - [ ]  Ejercicio 9: Ejecuta el ejecutable de la aplicación
-- [ ]  Ejercicio 10: Realiza una secuencia de los números de Fibonacci
+- [x]  Ejercicio 10: Realiza una secuencia de los números de Fibonacci
 - [ ]  Ejercicio 11: Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado. 
-- [ ]  Ejercicio 12: Petición HTTP
-- [ ]  Ejercicio 13: Conversor de unidades
-- [ ]  Ejercicio 14: Generador de frases aleatorias
-- [ ]  Ejercicio 15: Simulación de lanzamiento de dados
-- [ ]  Ejercicio 16: Calculo de area de figuras geométricas.
-- [ ]  Ejercicio 17: Crea un prompt para ChatGPT usando la entrada del usuario.
+- [x]  Ejercicio 12: Petición HTTP
+- [x]  Ejercicio 13: Conversor de unidades
+- [x]  Ejercicio 14: Generador de frases aleatorias
+- [x]  Ejercicio 15: Simulación de lanzamiento de dados
+- [x]  Ejercicio 16: Calculo de area de figuras geométricas.
 
 **Medio**: 
 
@@ -27,6 +26,7 @@
 - [ ]  Ejercicio 2: Crea un sistema de gestión de agenda
 - [ ]  Ejercicio 3: Sistema de gestión de una biblioteca, para gestionar libros, usuarios y prestamos.
 - [ ]  Ejercicio 4: Calculadora que encuentra la diferencia entre dos fechas.
+- [x]  Ejercicio 5: Aplanar un arreglo con varios subarreglos.
 
 **Difícil**: 
 
