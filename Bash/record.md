@@ -26,7 +26,7 @@
 - [x]  Ejercicio 1: Encuentra el MCD de dos numeros   
 - [x]  Ejercicio 2: Crea un sistema de gestión de agenda
 - [ ]  Ejercicio 3: Sistema de gestion de una biblioteca, para gestionar libros, usuarios y prestamos.
-- [ ]  Ejercicio 4: Calculadora que encuentra la diferencia entre dos fechas.
+- [x]  Ejercicio 4: Calculadora que encuentra la diferencia entre dos fechas.
 - [ ]  Ejercicio 5: Aplanar un arreglo con varios subarreglos.
 
 **Difícil**: 
