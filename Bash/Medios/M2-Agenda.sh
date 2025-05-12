@@ -8,86 +8,89 @@
 #   (o el número de dígitos que quieras)
 # - También se debe proponer una operación de finalización del programa.
 
-
-menu () {
-    echo "================= Agenda =================";
-    echo "A. Nuevo contacto";
-    echo "B. Ver contactos";
-    echo "C. Borrar contacto";
-    echo "D. Borrar todo";
+menu() {
+	echo "================= Agenda ================="
+	echo "A. Nuevo contacto"
+	echo "B. Ver contactos"
+	echo "C. Borrar contacto"
+	echo "D. Borrar todo"
 }
 
-archivo="agenda.txt";
-cd "$(dirname "$0")";
+archivo="agenda.txt"
+cd "$(dirname "$0")"
 if [ -e "$archivo" ]; then
-    echo "El archivo $archivo existe."
+	echo "El archivo $archivo existe."
 else
-    touch "agenda.txt";
+	touch "agenda.txt"
 fi
 
 opcion=''
 menu
-read -p "Ingrese una opcion: " opcion;
+read -p "Ingrese una opcion: " opcion
 clear
 case $opcion in
 
-"A") echo "Nuevo contacto"
-read -p "Ingrese nombre: " nombre;
-read -p "Ingrese apellido: " apellido;
-numero="";
-read -p "Ingrese numero: " numero;
-num_cadena=${#numero};
-while [[ $num_cadena -le 10 ]];
-do
-read -p "Ingrese numero: " numero;
-num_cadena=${#numero};
-done
-id=$((1 + $RANDOM % 100));
+"A")
+	echo "Nuevo contacto"
+	read -p "Ingrese nombre: " nombre
+	read -p "Ingrese apellido: " apellido
+	numero=""
+	read -p "Ingrese numero: " numero
+	num_cadena=${#numero}
+	while [[ $num_cadena -le 10 ]]; do
+		read -p "Ingrese numero: " numero
+		num_cadena=${#numero}
+	done
+	id=$((1 + $RANDOM % 100))
 
-STRING=$id
-centinela=1;
-while  [[ $centinela -eq 1 ]];
-do
-if grep -q "$STRING" agenda.txt; then
-    # Código si se encuentra
-    id=$((1 + $RANDOM % 100));
-    STRING=$id;
-else
-    # Código si no se encuentra, rompe el bucle.
-    centinela=0;
-fi
-done
-input_text="$id $nombre $apellido $numero";
-echo $input_text >> $archivo;
-clear;
-menu;
-read -p "Ingrese una opcion: " opcion;;
+	STRING=$id
+	centinela=1
+	while [[ $centinela -eq 1 ]]; do
+		if grep -q "$STRING" agenda.txt; then
+			# Código si se encuentra
+			id=$((1 + $RANDOM % 100))
+			STRING=$id
+		else
+			# Código si no se encuentra, rompe el bucle.
+			centinela=0
+		fi
+	done
+	input_text="$id $nombre $apellido $numero"
+	echo $input_text >>$archivo
+	clear
+	menu
+	read -p "Ingrese una opcion: " opcion
+	;;
 
-"B") echo "================= Lista de contactos =================";
-while IFS= read -r line || [[ -n "$line" ]]; do
-    echo "$line"
-done < agenda.txt;
-;;
+"B")
+	echo "================= Lista de contactos ================="
+	while IFS= read -r line || [[ -n "$line" ]]; do
+		echo "$line"
+	done <agenda.txt
+	;;
 
-"C") echo "================= Borrar contacto =================";
-while IFS= read -r line || [[ -n "$line" ]]; do
-    echo "$line"
-done < agenda.txt;
-read -p "Id del contacto que desea borrar: " id;
-#buscar y eliminar linea
-busqueda=$id
-sed -i "/$busqueda/d" agenda.txt
-#regresar al menu
-clear;
-menu;
-read -p "Ingrese una opcion: " opcion;;
+"C")
+	echo "================= Borrar contacto ================="
+	while IFS= read -r line || [[ -n "$line" ]]; do
+		echo "$line"
+	done <agenda.txt
+	read -p "Id del contacto que desea borrar: " id
+	#buscar y eliminar linea
+	busqueda=$id
+	sed -i "/$busqueda/d" agenda.txt
+	#regresar al menu
+	clear
+	menu
+	read -p "Ingrese una opcion: " opcion
+	;;
 
 "D")
-rm agenda.txt
-touch agenda.txt;;
+	rm agenda.txt
+	touch agenda.txt
+	;;
 
-[E-Z]) echo "Valor fuera de rango";;
+[E-Z]) echo "Valor fuera de rango" ;;
 
-*) echo "Por favor solo caracteres dentro del rango [A-B]";;
+*) echo "Por favor solo caracteres dentro del rango [A-B]" ;;
 
 esac

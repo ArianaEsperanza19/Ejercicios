@@ -12,10 +12,9 @@ read -p "Por favor introduzca el numero de repeticiones deseado: " numero
 a=0
 b=1
 echo $a
-for((i=0;i<$numero;i++ ))
-do
-c=$((a+b))
-echo $c
-b=$a
-a=$c
+for ((i = 0; i < $numero; i++)); do
+	c=$((a + b))
+	echo $c
+	b=$a
+	a=$c
 done

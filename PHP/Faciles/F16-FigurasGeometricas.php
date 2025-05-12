@@ -1,4 +1,5 @@
 <?php
+
 # 16. Figuras geometricas
 echo "Simulador de figuras geometricas\n";
 echo "Ingrese la base del triangulo: ";

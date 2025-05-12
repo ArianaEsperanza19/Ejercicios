@@ -1,3 +1,6 @@
 Tarea | Usuario | Estado
 57 | Caligrafias | Ariana | pendiente 
 19 | Cocinar cena | Maribel | pendiente
+86 | Resolver ejercicio de bash | Ariana | pendiente
+39 | Tomar un te | Ariana | pendiente
+34 | Comer un Tocimiel | Firiel | pendiente
