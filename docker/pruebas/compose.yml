@@ -1,0 +1,19 @@
+version: lastest
+# Servicios/Servidor
+services:
+  web:
+    image: nginx
+    ports:
+      - 8080:80
+  web1:
+    image: mariadb
+    ports:
+      - 3306:3306
+    environment:
+      - MARIADB_ROOT_PASSWORD=123
+      - MARIADB_DATABASE=mydata
+  web2:
+    build: .
+    ports:
+      - 8081:80
+

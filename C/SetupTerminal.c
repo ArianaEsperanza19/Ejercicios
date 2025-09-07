@@ -7,23 +7,24 @@
 int main() {
     system("sudo apt update && sudo apt upgrade -y");
     system("sudo apt-get upgrade -y");
-    system("sudo apt install neofetch -y");
-    system("sudo apt install tldr -y");
-    system("sudo apt install zoxide -y");
-    system("sudo apt install ranger -y");
-    system("sudo apt install duf -y");
-    system("sudo apt install ripgrep -y");
-    system("sudo apt install btop -y");
-    system("sudo apt-get install git -y");
-    system("sudo apt install tmux -y");
+    system("sudo apt install eza");
+    system("sudo apt install tldr");
+    system("sudo apt install zoxide");
+    system("sudo apt install ranger");
+    system("sudo apt install duf");
+    system("sudo apt install ripgrep");
+    system("sudo apt install btop");
+    system("sudo apt-get install git");
+    system("sudo apt install tmux");
     system("curl -fsSL https://deno.land/x/install/install.sh | sh -y");
-    system("sudo apt install curl -y");
-    system("sudo apt install npm nodejs -y");
-    system("sudo apt install zathura -y");
-    system("sudo apt install cmus -y");
+    system("sudo apt install curl");
+    system("sudo apt install npm nodejs");
+    system("sudo apt install zathura");
+    system("sudo apt install cmus");
     system("sudo apt-get install pandoc");
-    system("sudo apt-get install texlive-latex-base texlive-latex-extra");
-    printf("Instalados neofetch, tldr, zoxide, ranger, duf, ripgrep, btop, git, tmux, deno, curl, npm, nodejs, zathura, cmus, pandoc y latex\n");
+    system("sudo apt-get install texlive-latex-base texlive-latex-extra latexmk");
+    printf("#------------------------------------------------------------------------------------------------------#\n");
+    printf("Instalados eza, tldr, zoxide, ranger, duf, ripgrep, btop, git, tmux, deno, curl, npm, nodejs, zathura, cmus, pandoc y latex\n");
     printf("Recuerda configurar zoxide, ranger y tmux\nInstala mediante la tienda Obsidian, Anki, Secretos, Rnote, Blanket, Syncthing, Lutris y Steam");
 
     return 0;  // Indicar que el programa terminó correctamente

@@ -4,26 +4,26 @@
 
 ## Ordenados por dificultad (aproximado)
 
-**Fácil**:
+__Fácil__:
 
 - [x] Ejercicio 1: Invierte una cadena
-- [ ] Ejercicio 2: Determina si un numero es primo
-- [ ] Ejercicio 3: Ordena una lista de números
-- [ ] Ejercicio 4: Implementa una calculadora básica
-- [ ] Ejercicio 5: Simula un juego de adivinanzas
-- [ ] Ejercicio 6: Desarrolla un juego de piedra, papel o tijera
-- [ ] Ejercicio 7: Implementa un algoritmo de búsqueda
-- [ ] Ejercicio 8: Crea un generador de contraseñas seguras
-- [ ] Ejercicio 9: Ejecuta el ejecutable de la aplicación
-- [ ] Ejercicio 10: Realiza una secuencia de los números de Fibonacci
-- [ ] Ejercicio 11: Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado.
-- [ ] Ejercicio 12: Petición HTTP
-- [ ] Ejercicio 13: Conversor de unidades
-- [ ] Ejercicio 14: Generador de frases aleatorias
-- [ ] Ejercicio 15: Simulación de lanzamiento de dados
-- [ ] Ejercicio 16: Calculo de area de figuras geométricas.
+- [x] Ejercicio 2: Ordena una lista de números
+- [ ] Ejercicio 3: Implementa una calculadora básica
+- [ ] Ejercicio 4: Conversor de unidades, de km a millas
+- [ ] Ejercicio 5: Calculo de area de figuras geométricas.
+- [ ] Ejercicio 6: Simula un juego de adivinanzas
+- [ ] Ejercicio 7: Generador de frases aleatorias
+- [ ] Ejercicio 8: Desarrolla un juego de piedra, papel o tijera
+- [ ] Ejercicio 9: Simulación de lanzamiento de dados
+- [ ] Ejercicio 10: Crea un generador de contraseñas seguras
+- [ ] Ejercicio 11: Ejecuta un ejecutable de una aplicación
+- [ ] Ejercicio 12: Realiza una secuencia de los números de Fibonacci
+- [ ] Ejercicio 13: Determina si un numero es primo
+- [ ] Ejercicio 14: Buscar una subcadena dentro de un archivo y agregar una nueva linea con el texto dado.
+- [ ] Ejercicio 15: Petición HTTP
+- [ ] Ejercicio 16: Implementa un algoritmo de búsqueda
 
-**Medio**:
+__Medio__:
 
 - [ ] Ejercicio 1: Encuentra el MCD de dos números.
 - [ ] Ejercicio 2: Crea un sistema de gestión de agenda
@@ -33,7 +33,7 @@
 - [ ] Ejercicio 6: Dado dos arrays de enteros, encuentra el mayor elemento común en ambos arrays.
 - [ ] Ejercicio 7: Dada una entrada de texto, escapar los caracteres especiales mediante \.
 
-**Difícil**:
+__Difícil__:
 
 - [ ] Ejercicio 1: Crea un sistema de gestión de tareas
 - [ ] Ejercicio 2: Configurar sudoers para colocar la pantalla de carga y hacer sudoer a un usuario

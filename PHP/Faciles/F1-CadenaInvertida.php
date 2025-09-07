@@ -1,5 +1,7 @@
 <?php
 
+sleep(2);
+
 // Invierte una cadena
 $cadena = "Hola mundo!";
 $nuevaCadena = [];
